@@ -15,6 +15,7 @@ const description = [
 export default defineConfig({
   extends: teekConfig,
   // ? 站点配置
+  base: '/docs/',
   srcDir: './docs',
 
   // ? frontmatter 配置
