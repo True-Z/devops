@@ -1,0 +1,38 @@
+{
+  "name": "devops-docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "keywords": [
+    "DevOps",
+    "Docs"
+  ],
+  "author": "True",
+  "license": "ISC",
+  "packageManager": "pnpm@10.8.1",
+  "devDependencies": {
+    "commitlint-config-cz": "^0.13.3",
+    "cz-customizable": "^7.5.1",
+    "vitepress": "^1.6.4",
+    "vitepress-theme-teek": "^1.5.0",
+    "vue": "^3.5.22"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-customizable"
+    }
+  },
+  "standard-version": {
+    "skip": {
+      "bump": false,
+      "changelog": false,
+      "commit": false,
+      "tag": false
+    }
+  }
+}

@@ -1,0 +1,3 @@
+# 统一特定文件换行符
+*.sh  text eol=lf
+*.bat text eol=crlf
