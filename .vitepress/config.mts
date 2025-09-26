@@ -15,11 +15,11 @@ const description = [
 export default defineConfig({
   extends: teekConfig,
   // ? 站点配置
-  base: '/docs/',
+  base: '/devops/',
   srcDir: './docs',
 
   // ? frontmatter 配置
-  title: 'true-devops',
+  title: 'devops',
   description,
 
   // ? 主题相关配置
