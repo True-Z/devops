@@ -20,7 +20,7 @@ export const teekConfig = defineTeekConfig({
   // ? 插件配置
   vitePlugins: {
     sidebarOption: {
-      ignoreList: [/.*assets/]
+      ignoreList: [/.*.assets/, /.*.gitkeep/]
     }
   }
 })

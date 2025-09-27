@@ -28,87 +28,35 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       {
-        text: '计算机',
+        text: '编程',
         items: [
-          {
-            text: '基础',
-            items: [
-              { text: '操作系统', link: '/computer/os-intro/' },
-              { text: '计算机组成原理', link: '/computer/constitute-intro/' },
-              { text: '计算机网络', link: '/computer/network-intro/' },
-              { text: '数据结构', link: '/computer/dataStructure-intro/' }
-            ]
-          },
-          {
-            text: '应用',
-            items: [
-              { text: '数据库', link: '/computer/database-intro/' },
-              { text: '设计模式', link: '/computer/designMode-intro/' },
-              { text: '算法', link: '/computer/algorithm-intro/' }
-            ]
-          }
+          { text: '前端', link: '/fe-intro/' },
+          { text: '后端', link: '/be-intro/' },
+          { text: '数据库', link: '/db-intro/' },
+          { text: '设计模式', link: '/designMode-intro/' },
+          { text: '算法', link: '/algorithm-intro/' }
         ]
       },
       {
-        text: '前端',
+        text: '运维',
         items: [
-          {
-            text: '基础',
-            items: [
-              { text: 'HTML', link: '/fe/html-intro/' },
-              { text: 'CSS', link: '/fe/css-intro/' },
-              { text: 'JavaScript', link: '/fe/javaScript-intro/' }
-            ]
-          },
-          {
-            text: '应用',
-            items: [{ text: 'Web', link: '/fe/web-intro/' }]
-          },
-          {
-            text: '原理',
-            items: [{ text: 'V8', link: '/fe/V8-intro/' }]
-          }
+          { text: 'Windows', link: '/windows-intro/' },
+          { text: 'Linux', link: '/linux-intro/' }
         ]
       },
       {
-        text: '工具',
+        text: '构建',
         items: [
-          {
-            text: 'IDE',
-            items: [{ text: 'JetBrains', link: '/tools/ide-jetBrains/' }]
-          },
-          {
-            text: 'Ops',
-            items: [
-              { text: 'Git', link: '/tools/git-intro/' },
-              { text: 'Npm', link: '/tools/npm-intro/' }
-            ]
-          }
+          { text: 'IDE', link: '/ide-intro/' },
+          { text: '版本控制系统', link: '/vcs-intro/' },
+          { text: '包管理器', link: '/pm-intro/' }
         ]
       },
       {
         text: '学习',
         items: [
-          {
-            text: '输入法',
-            items: [{ text: '小鹤音形', link: '/study/inputMethod-xhyx/' }]
-          }
-        ]
-      },
-      {
-        text: 'Ops',
-        items: [
-          {
-            text: '操作与使用',
-            items: [
-              { text: 'Windows', link: '/ops/windows-intro/' },
-              { text: 'Linux', link: '/ops/linux-intro/' }
-            ]
-          },
-          {
-            text: '自动化',
-            items: []
-          }
+          { text: '计算机基础', link: '/computer-intro/' },
+          { text: '输入法', link: '/inputMethod-intro/' }
         ]
       },
       {
@@ -128,7 +76,7 @@ export default defineConfig({
     socialLinks: [
       {
         icon: 'github',
-        link: 'https://github.com/True-Z/devops-docs'
+        link: 'https://github.com/True-Z/devops'
       }
     ],
     darkModeSwitchLabel: '主题',
@@ -136,7 +84,7 @@ export default defineConfig({
     returnToTopLabel: '返回顶部',
     editLink: {
       text: '在 GitHub 上编辑此页',
-      pattern: 'https://github.com/True-Z/devops-docs/edit/master/docs/:path'
+      pattern: 'https://github.com/True-Z/devops/edit/main/docs/:path'
     },
     lastUpdated: {
       text: '上次更新时间'
