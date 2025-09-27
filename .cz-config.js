@@ -34,9 +34,9 @@
     ['build', '构建'],
     ['release', '发布'],
     ['other', '其他']
-  ].map(([value]) => ({
+  ].map(([value, description]) => ({
     value,
-    name: value
+    name: `${value.padEnd(30)} ${description}`
   })),
   allowCustomScopes: true,
   allowBreakingChanges: ['feat', 'fix'],
